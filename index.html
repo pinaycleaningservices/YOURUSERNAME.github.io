@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinay Cleaning Services | Reliable Home & Office Cleaning</title>
+  <meta name="description" content="Pinay Cleaning Services provides reliable, professional cleaning services for homes, offices, apartments, and more.">
+  <style>
+    :root{
+      --primary:#087f8c;
+      --primary-dark:#05636d;
+      --accent:#f4b942;
+      --dark:#17323a;
+      --muted:#63777d;
+      --light:#f4fafb;
+      --white:#fff;
+      --shadow:0 15px 45px rgba(23,50,58,.12);
+      --radius:18px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);line-height:1.6;background:#fff}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid #e8eff0}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-size:1.2rem;font-weight:800;color:var(--primary)}
+    .logo span{color:var(--dark)}
+    nav{display:flex;gap:28px;align-items:center}
+    nav a{font-weight:600;font-size:.95rem}
+    nav a:hover{color:var(--primary)}
+    .btn{display:inline-block;background:var(--primary);color:#fff;padding:13px 22px;border-radius:999px;font-weight:700;transition:.2s}
+    .btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+    .btn.alt{background:var(--accent);color:var(--dark)}
+    .hero{background:linear-gradient(135deg,#e9f8f8 0%,#fff 60%);padding:88px 0 80px}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}
+    .eyebrow{color:var(--primary);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;margin-bottom:14px}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.05;margin-bottom:22px}
+    h1 span{color:var(--primary)}
+    .hero p{font-size:1.1rem;color:var(--muted);max-width:620px;margin-bottom:28px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-card{background:#fff;border-radius:28px;padding:34px;box-shadow:var(--shadow);position:relative}
+    .clean-icon{height:250px;border-radius:20px;background:linear-gradient(135deg,#dff5f5,#f9fdff);display:grid;place-items:center;font-size:7rem}
+    .badge{position:absolute;right:22px;bottom:22px;background:#fff;padding:14px 18px;border-radius:14px;box-shadow:0 8px 25px rgba(0,0,0,.1);font-weight:800}
+    section{padding:82px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 45px}
+    .section-head h2{font-size:2.3rem;margin-bottom:12px}
+    .section-head p{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{padding:30px;border:1px solid #e5eeee;border-radius:var(--radius);background:#fff;box-shadow:0 8px 30px rgba(23,50,58,.05)}
+    .icon{font-size:2rem;margin-bottom:15px}
+    .card h3{margin-bottom:8px}
+    .card p{color:var(--muted);font-size:.95rem}
+    .about{background:var(--light)}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .about-box{background:#fff;border-radius:24px;padding:38px;box-shadow:var(--shadow)}
+    .about-box h2{font-size:2.2rem;margin-bottom:16px}
+    .about-box p{color:var(--muted);margin-bottom:16px}
+    .checks{list-style:none;display:grid;gap:12px;margin-top:20px}
+    .checks li{font-weight:700}
+    .checks li::before{content:"✓";color:var(--primary);margin-right:10px}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .step{text-align:center;padding:28px}
+    .number{width:48px;height:48px;margin:0 auto 15px;border-radius:50%;background:var(--primary);color:#fff;display:grid;place-items:center;font-weight:800}
+    .cta{background:var(--dark);color:#fff}
+    .cta .section-head p{color:#c8d7da}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+    .contact-card{background:#fff;color:var(--dark);border-radius:20px;padding:32px}
+    .contact-card h3{margin-bottom:15px}
+    .contact-item{padding:12px 0;border-bottom:1px solid #edf1f1}
+    .contact-item:last-child{border:0}
+    footer{background:#10272d;color:#b8c9cc;padding:28px 0}
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .mobile-menu{display:none}
+    @media(max-width:800px){
+      nav{display:none}
+      .mobile-menu{display:block}
+      .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+      .cards,.process{grid-template-columns:1fr}
+      .hero{padding-top:55px}
+      section{padding:62px 0}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">Pinay <span>Cleaning Services</span></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#process">How It Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn mobile-menu" href="#contact">Book Now</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Reliable • Professional • Friendly</div>
+        <h1>A cleaner home starts with <span>Pinay Cleaning Services.</span></h1>
+        <p>
+          Professional cleaning services for homes, apartments, offices, and other spaces in Landrum, SC and nearby areas.
+          We help keep your space fresh, clean, and comfortable—without the hassle.
+        </p>
+        <div class="actions">
+          <a class="btn" href="#contact">Get a Free Quote</a>
+          <a class="btn alt" href="#services">View Services</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="clean-icon">🧹</div>
+        <div class="badge">✨ Quality Cleaning</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">What We Do</div>
+        <h2>Cleaning services made simple</h2>
+        <p>Choose the service that fits your space and schedule.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🏠</div>
+          <h3>Home Cleaning</h3>
+          <p>Regular or one-time cleaning for bedrooms, kitchens, bathrooms, living areas, and more.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏢</div>
+          <h3>Office Cleaning</h3>
+          <p>Keep your workplace neat, fresh, and ready for employees and customers.</p>
+        </div>
+        <div class="card">
+          <div class="icon">✨</div>
+          <h3>Deep Cleaning</h3>
+          <p>A more detailed clean for spaces that need extra attention before or after an event, move, or renovation.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛋️</div>
+          <h3>Move-In / Move-Out</h3>
+          <p>Get a property fresh and presentable before moving in or handing it over.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🪟</div>
+          <h3>General Cleaning</h3>
+          <p>Flexible cleaning support based on the areas and tasks you need completed.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📅</div>
+          <h3>Recurring Cleaning</h3>
+          <p>Set a schedule that works for you—weekly, biweekly, monthly, or as needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-box">
+        <div class="eyebrow">Why Choose Us</div>
+        <h2>More than cleaning—peace of mind.</h2>
+        <p>
+          At Pinay Cleaning Services, our goal is to make professional cleaning convenient,
+          dependable, and stress-free for every client.
+        </p>
+        <ul class="checks">
+          <li>Reliable and detail-focused service</li>
+          <li>Flexible scheduling</li>
+          <li>Friendly and professional approach</li>
+          <li>Services tailored to your space</li>
+        </ul>
+      </div>
+      <div>
+        <div class="section-head" style="text-align:left;margin:0">
+          <div class="eyebrow">About Us</div>
+          <h2>A fresh space, every time.</h2>
+          <p>
+            Serving Landrum, SC and nearby communities, whether you need a quick refresh or a detailed deep clean, we're here to help
+            you spend less time cleaning and more time doing what matters.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Simple Process</div>
+        <h2>Book your cleaning in 3 easy steps</h2>
+      </div>
+      <div class="process">
+        <div class="step">
+          <div class="number">1</div>
+          <h3>Tell Us What You Need</h3>
+          <p>Send us your location, space type, and cleaning requirements.</p>
+        </div>
+        <div class="step">
+          <div class="number">2</div>
+          <h3>Get Your Quote</h3>
+          <p>We'll discuss the service and provide pricing based on your needs.</p>
+        </div>
+        <div class="step">
+          <div class="number">3</div>
+          <h3>Enjoy a Cleaner Space</h3>
+          <p>We'll arrive at the agreed schedule and get your space looking fresh.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Let's Get Started</div>
+        <h2>Ready for a cleaner space?</h2>
+        <p>Contact us today for availability and a free quote.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Details</h3>
+          <div class="contact-item"><strong>📞 Phone:</strong> <a href="tel:+18647539044">+1 864-753-9044</a></div>
+          <div class="contact-item"><strong>📧 Email:</strong> <a href="mailto:denjess08@gmail.com">denjess08@gmail.com</a></div>
+          <div class="contact-item"><strong>📍 Service Area:</strong> Landrum, SC and nearby areas</div>
+          <div class="contact-item"><strong>📘 Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61593695596861" target="_blank" rel="noopener">Pinay Cleaning Services</a></div>
+        </div>
+        <div class="contact-card">
+          <h3>Request a Quote</h3>
+          <p style="color:var(--muted);margin-bottom:20px;">
+            Tell us what needs cleaning and your preferred date. We'll get back to you with availability and pricing.
+          </p>
+          <a class="btn" href="mailto:denjess08@gmail.com?subject=Cleaning%20Service%20Quote%20Request">Email Us for a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 Pinay Cleaning Services. All rights reserved.</div>
+    <div>Professional cleaning you can count on.</div>
+  </div>
+</footer>
+
+</body>
+</html>
